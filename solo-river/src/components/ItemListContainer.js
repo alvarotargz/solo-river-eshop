@@ -1,4 +1,4 @@
-import RiverCampeon from '../assets/river-plate-campeon-libertadores-2018.jpg'
+import RiverCampeon from './assets/river-plate-campeon-libertadores-2018.jpg'
 
 const ItemListContainer = (props) => {
     return (

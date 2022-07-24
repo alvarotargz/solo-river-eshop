@@ -1,8 +1,9 @@
-import NavBar from './components/NavBar/NavBar';
-import './components/NavBar/NavBar.css'
-import './components/CartWidget/CartWidget.css'
-import './components/ItemListContainer/ItemListContainer.css'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
+
+import './components/styles/NavBar.css'
+import './components/styles/CartWidget.css'
+import './components/styles/ItemListContainer.css'
 function App() {
   return (
     <>

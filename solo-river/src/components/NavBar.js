@@ -1,5 +1,5 @@
-import river from '../assets/river-plate-logo.png';
-import CartWidget from '../CartWidget/CartWidget';
+import river from './assets/river-plate-logo.png';
+import CartWidget from './CartWidget';
 const NavBar = () => {
     return (
         <>
