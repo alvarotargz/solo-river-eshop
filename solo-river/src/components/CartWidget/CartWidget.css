@@ -1,0 +1,11 @@
+.cart-icon *{
+    margin: 10px 0px;
+    height: 70px;
+    width: 70px;
+}
+
+.cart-icon *:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}

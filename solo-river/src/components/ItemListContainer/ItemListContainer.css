@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lexend+Deca&display=swap');
+*{
+    overflow-x: hidden;
+}
+
+.title{
+    margin: 10px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: .5px;
+ 
+}
+
+.main-content{
+    display: flex;
+}
+.main-content img{
+    border-radius: 10px;
+}
+.informacion{
+    margin: 10px 5vh;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 20vh;
+    width: 70vh;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.informacion p{
+    font-size: 30px;
+}
+
+.parrafo{
+    margin-top: 5px;
+    font-size: 20px;
+    
+}
+
+.footer{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

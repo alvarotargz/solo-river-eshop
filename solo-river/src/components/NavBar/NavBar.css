@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.items{
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(22, 22, 22);
+}
+
+.items p{ 
+    margin: 15px 0px;
+    font-size: 30px;
+    padding: 6px;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.items img{
+    margin: 10px 0px;
+    height: 75px;
+    width: 75px;
+}
+
+
+
+.items p:hover{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/72/Bandera_de_River.png");
+    background-repeat: none;
+    background-position: center;
+    background-size: 100%;
+    transform: scale(1.2);
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+}
+
+
+.items img:hover{
+    transform: scale(1.2);
+    transition: .5s;
+    cursor: pointer;
+}
